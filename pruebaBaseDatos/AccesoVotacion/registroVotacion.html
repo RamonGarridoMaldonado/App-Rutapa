@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="registroVotacion.css">
+    <link rel="stylesheet" href="../icomoon/style.css">
+    <script src="registroVotacion.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+</head>
+<body>
+    <section>
+        <div class="divFormulario">
+            <div>
+                <img id="logo" src="../imagenes/logo.webp">
+                    <div class="cajaTxt">
+                        <i class="icon-envelop"></i>
+                        <input type="text" id="txtCorreo" placeholder="Correo Electrónico" value="alfonso@gmail.com">
+                    </div>
+                    <div class="cajaTxt">
+                        <i class="icon-key"></i>
+                        <input type="password" id="txtPassword" placeholder="Contraseña" value="oretania">
+                    </div>
+                    <div class="contenedorBotones">
+                        <button id="btnRegistrar">Registrar</button>
+                        <button id="btnAcceder">Acceder</button>    
+                    </div>
+                <p id="txtMensaje"></p>
+                <button id="btnInvitado">Acceder como invitado</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
